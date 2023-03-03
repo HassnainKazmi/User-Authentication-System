@@ -2,7 +2,7 @@
   margin-top: 8rem;
 }
 
-.form__container {
+.loginform__container {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
@@ -24,6 +24,7 @@ form {
 .btn.btn-success {
   width: 50%;
 }
+
 h1 {
   color: #0b5bd4;
   margin-left: 2rem;
@@ -44,6 +45,9 @@ span {
   border-radius: 20px;
 }
 
+/* input::placeholder {
+  font-size: ;
+} */
 @media screen and (max-width: 991px) {
   .form__container {
     width: var(--container-width-md);

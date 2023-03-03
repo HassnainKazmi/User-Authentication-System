@@ -1,0 +1,54 @@
+#signUpPage {
+  margin-top: 1rem;
+}
+
+.signupform__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+form {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.form__content {
+  text-align: center;
+}
+
+.user__fullname {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0rem 2rem;
+}
+
+.dob {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+
+select option {
+  font-size: 0.9rem;
+}
+
+.gender {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+.gender div {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+}
+
+.tos {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.form-floating {
+  height: 50px;
+}
