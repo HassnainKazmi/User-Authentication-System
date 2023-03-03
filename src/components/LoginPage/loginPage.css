@@ -1,0 +1,68 @@
+#loginPage {
+  margin-top: 12rem;
+}
+
+.form__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+form {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+Button {
+  width: 100%;
+}
+
+h1 {
+  color: #0b5bd4;
+  margin-left: 2rem;
+  margin: 0rem 2rem;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0rem 2rem;
+}
+
+span {
+  color: #606770;
+  margin: 0rem 2rem;
+}
+
+.card.my__card {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .form__container {
+    width: var(--container-width-md);
+  }
+}
+
+/* ---------------------- MOBILES ---------------------- */
+@media screen and (max-width: 787px) {
+  #loginPage {
+    margin-top: 4rem;
+  }
+  .form__container {
+    width: var(--container-width-sm);
+    grid-template-columns: none;
+    align-items: center;
+  }
+
+  form {
+    margin: 1rem;
+    padding: 0.75rem;
+  }
+
+  .logo {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
