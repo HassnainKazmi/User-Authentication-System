@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { useRef } from "react";
@@ -19,7 +20,7 @@ const LoginPage = () => {
       password: enteredPassword,
     };
 
-    // Send userData to back-end and compare the entered data with the stored data in DB
+    // Send userLoginInData to back-end and compare the entered data with the stored data in DB
   };
 
   return (

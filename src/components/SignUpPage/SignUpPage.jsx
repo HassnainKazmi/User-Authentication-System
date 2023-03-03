@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
@@ -27,6 +28,8 @@ const SignUpPage = () => {
       email: enteredEmail,
       password: enteredPassword,
     };
+
+    // Send userSignupData to back-end and compare the entered data with the stored data in DB
   };
 
   return (
