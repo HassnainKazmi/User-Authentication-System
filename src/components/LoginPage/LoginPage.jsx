@@ -17,6 +17,8 @@ const LoginPage = () => {
       email: enteredEmail,
       password: enteredPassword,
     };
+
+    // Send userData to back-end and compare the entered data with the stored data in DB
   };
 
   return (
@@ -54,7 +56,18 @@ const LoginPage = () => {
                 />
                 <label htmlFor="floatingPassword">Password</label>
               </div>
-              <Button className="mt-3">Log in</Button>
+              <button className="btn btn-primary my-3">Log in</button>
+              <p>
+                <a href="" style={{ textDecoration: "none" }}>
+                  Forgotten Password?
+                </a>
+              </p>
+              <hr style={{ borderTop: "0.1px solid #000" }}></hr>
+              <button className="btn btn-success">
+                <a href="" style={{ color: "#fff", textDecoration: "none" }}>
+                  Create Account
+                </a>
+              </button>
             </form>
           </Card>
         </div>

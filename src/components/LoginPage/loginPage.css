@@ -1,5 +1,5 @@
 #loginPage {
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .form__container {
@@ -8,15 +8,22 @@
   align-items: center;
 }
 
+.form__content {
+  text-align: center;
+}
+
 form {
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
 }
 
-Button {
+.btn.btn-primary {
   width: 100%;
 }
 
+.btn.btn-success {
+  width: 50%;
+}
 h1 {
   color: #0b5bd4;
   margin-left: 2rem;
