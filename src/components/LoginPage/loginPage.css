@@ -45,9 +45,7 @@ span {
   border-radius: 20px;
 }
 
-/* input::placeholder {
-  font-size: ;
-} */
+/* ---------------------- TABLETS ---------------------- */
 @media screen and (max-width: 991px) {
   .form__container {
     width: var(--container-width-md);
@@ -57,12 +55,14 @@ span {
 /* ---------------------- MOBILES ---------------------- */
 @media screen and (max-width: 787px) {
   #loginPage {
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
-  .form__container {
+
+  .loginform__container {
     width: var(--container-width-sm);
     grid-template-columns: none;
-    align-items: center;
+    text-align: center;
+    gap: 1rem;
   }
 
   form {
@@ -70,10 +70,8 @@ span {
     padding: 0.75rem;
   }
 
-  .logo {
-    display: grid;
-    grid-template-rows: 1fr;
-    text-align: center;
-    margin-bottom: 2rem;
+  span {
+    font-size: 0.8rem;
+    margin: 0rem;
   }
 }
