@@ -188,14 +188,12 @@ const SignUpPage = () => {
                 Cookies Policy. You may receive SMS notifications from us and
                 can opt out at any time.
               </p>
-              <button className="btn btn-success">
-                <Link
-                  to="/User-Authentication-System/"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                >
-                  Sign Up
-                </Link>
-              </button>
+              <Link
+                to="/User-Authentication-System/"
+                style={{ color: "#fff", textDecoration: "none" }}
+              >
+                <button className="btn btn-success">Sign Up</button>
+              </Link>
             </form>
           </Card>
         </div>

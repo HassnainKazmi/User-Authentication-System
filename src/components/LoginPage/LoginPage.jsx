@@ -65,14 +65,12 @@ const LoginPage = () => {
                 </Link>
               </p>
               <hr style={{ borderTop: "0.1px solid #000" }}></hr>
-              <button className="btn btn-success">
-                <Link
-                  to="/User-Authentication-System/signup"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                >
-                  Create Account
-                </Link>
-              </button>
+              <Link
+                to="/User-Authentication-System/signup"
+                style={{ color: "#fff", textDecoration: "none" }}
+              >
+                <button className="btn btn-success">Create Account</button>
+              </Link>
             </form>
           </Card>
         </div>
