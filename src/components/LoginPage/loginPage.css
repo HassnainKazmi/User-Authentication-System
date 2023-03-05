@@ -8,13 +8,8 @@
   align-items: center;
 }
 
-.form__content {
+.loginform__content {
   text-align: center;
-}
-
-form {
-  padding: 1rem;
-  margin: 1rem;
 }
 
 .btn.btn-primary {
@@ -22,33 +17,36 @@ form {
 }
 
 .btn.btn-success {
-  width: 50%;
+  width: 55%;
 }
 
-h1 {
+.login__logo h1 {
   color: #0b5bd4;
-  margin-left: 2rem;
-  margin: 0rem 2rem;
+  margin: 0.25rem 1rem;
 }
 
-h3 {
+.login__logo h3 {
   font-weight: 400;
-  margin: 0rem 2rem;
+  margin: 0.25rem 1rem;
 }
 
-span {
+.login__logo p {
   color: #606770;
-  margin: 0rem 2rem;
+  margin: 0.25rem 1rem;
 }
 
 .card.my__card {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 /* ---------------------- TABLETS ---------------------- */
 @media screen and (max-width: 991px) {
   .form__container {
     width: var(--container-width-md);
+  }
+
+  .btn.btn-success {
+    width: 70%;
   }
 }
 
@@ -70,8 +68,12 @@ span {
     padding: 0.75rem;
   }
 
-  span {
+  .loginLogo span {
     font-size: 0.8rem;
     margin: 0rem;
+  }
+
+  .btn.btn-success {
+    width: 65%;
   }
 }

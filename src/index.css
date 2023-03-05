@@ -36,6 +36,11 @@ section {
   margin-top: 4em;
 }
 
+form {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 /* ---------------------- TABLETS ---------------------- */
 @media screen and (max-width: 991px) {
   .container {

@@ -20,18 +20,20 @@ const LoginPage = () => {
       password: enteredPassword,
     };
 
+    console.log(userLoginData);
+
     // Send userLoginInData to back-end and compare the entered data with the stored data in DB
   };
 
   return (
     <section id="loginPage">
       <div className="container loginform__container">
-        <div className="logo">
+        <div className="login__logo">
           <h1>Social Media</h1>
           <h3>Recent Logins</h3>
-          <span>Click your picture or add an account</span>
+          <p>Click your picture or add an account</p>
         </div>
-        <div className="form__content">
+        <div className="loginform__content">
           <Card className="my__card">
             <form action="" onSubmit={submitHandler}>
               <div className="form-floating mb-3">
@@ -39,7 +41,7 @@ const LoginPage = () => {
                   type="email"
                   className="form-control"
                   id="floatingInput"
-                  placeholder="name@example.com"
+                  placeholder="Email"
                   ref={emailInputRef}
                   required
                   autoComplete="off"
