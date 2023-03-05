@@ -119,7 +119,7 @@
 
   .signup__logo,
   .signupform__content {
-    padding: 0rem 1rem;
+    padding: 0rem 0.3rem;
   }
 
   #floatingInput {
