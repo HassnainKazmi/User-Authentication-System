@@ -140,4 +140,8 @@
     color: #777;
     font-size: 0.7rem;
   }
+
+  .btn.btn-success {
+    width: 80%;
+  }
 }
