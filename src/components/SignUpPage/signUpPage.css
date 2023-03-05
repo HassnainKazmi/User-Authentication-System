@@ -117,6 +117,11 @@
     padding: 0.75rem;
   }
 
+  .signup__logo,
+  .signupform__content {
+    padding: 0rem 1rem;
+  }
+
   #floatingInput {
     font-size: 0.9rem !important;
   }
