@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/User-Authentication-System/static/css/main.a3215e4d.css",
-    "main.js": "/User-Authentication-System/static/js/main.5540cc8c.js",
+    "main.js": "/User-Authentication-System/static/js/main.cf8a733b.js",
     "index.html": "/User-Authentication-System/index.html",
     "main.a3215e4d.css.map": "/User-Authentication-System/static/css/main.a3215e4d.css.map",
-    "main.5540cc8c.js.map": "/User-Authentication-System/static/js/main.5540cc8c.js.map"
+    "main.cf8a733b.js.map": "/User-Authentication-System/static/js/main.cf8a733b.js.map"
   },
   "entrypoints": [
     "static/css/main.a3215e4d.css",
-    "static/js/main.5540cc8c.js"
+    "static/js/main.cf8a733b.js"
   ]
 }
