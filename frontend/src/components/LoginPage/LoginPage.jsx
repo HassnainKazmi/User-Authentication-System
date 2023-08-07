@@ -29,7 +29,7 @@ const LoginPage = () => {
 
     try {
       const response = await axios.post(
-        "https://my-user-authentication-system.vercel.app/api/auth",
+        "https://my-user-authentication-system-uas.vercel.app/api/auth",
         userLoginData
       );
 

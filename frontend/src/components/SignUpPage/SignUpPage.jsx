@@ -64,7 +64,7 @@ const SignUpPage = () => {
 
     try {
       const response = await axios.post(
-        "https://my-user-authentication-system.vercel.app/api/user",
+        "https://my-user-authentication-system-uas.vercel.app/api/user",
         userSignUpData
       );
       if (response.status === 200) {

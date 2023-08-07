@@ -17,7 +17,7 @@ const UserProfile = () => {
     const jwt = localStorage.getItem("jwt");
     try {
       const response = await axios.post(
-        "https://my-user-authentication-system.vercel.app/api/auth/user/details",
+        "https://my-user-authentication-system-uas.vercel.app/api/auth/user/details",
         {
           jwt: jwt,
         }
@@ -42,7 +42,7 @@ const UserProfile = () => {
     navigate("/User-Authentication-System/");
     try {
       const response = await axios.post(
-        "https://my-user-authentication-system.vercel.app/api/auth/logout"
+        "https://my-user-authentication-system-uas.vercel.app/api/auth/logout"
       );
       if (response.status === 200) {
         console.log("Token removed successfully.");
