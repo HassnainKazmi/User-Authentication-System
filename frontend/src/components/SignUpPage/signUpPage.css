@@ -1,0 +1,164 @@
+#signUpPage {
+  margin-top: 0.5rem;
+  width: 70%;
+  margin: 0rem auto;
+  padding: 1rem;
+}
+
+.signupform__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+}
+
+.signupform__content {
+  margin-top: 0.5rem;
+}
+
+.signup__logo,
+.signupform__content {
+  padding: 0rem 2rem;
+}
+
+.signup__logo h1 {
+  color: #0b5bd4;
+}
+
+.signup__logo span {
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.15rem;
+}
+
+.user__fullname {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0rem 0.5rem;
+}
+
+.dob {
+  border: 1.5px solid #ced4da;
+  border-radius: 6px;
+  padding: 0.75rem;
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+
+.dob__heading,
+.gender__heading {
+  text-align: left;
+  margin-left: 0.1rem;
+}
+
+.dob p {
+  font-size: 1.05rem;
+  color: #212529;
+  text-align: left !important;
+}
+
+.dob input {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.genderTM {
+  display: none;
+}
+
+.gender {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gender input,
+.genderTM input {
+  cursor: pointer;
+}
+
+.gender label,
+.genderTM label {
+  cursor: pointer;
+}
+
+.gender div,
+.genderTM div {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+}
+
+.tos {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.form-floating {
+  height: 3.1rem;
+}
+
+.btn.btn-success {
+  text-align: center;
+}
+
+.labels {
+  color: #4d4d4d;
+  font-weight: 300;
+}
+
+/* ---------------------- MOBILES ---------------------- */
+@media screen and (max-width: 787px) {
+  #signUpPage {
+    width: auto;
+  }
+
+  .signup__container {
+    width: var(--container-width-sm);
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .labels {
+    font-size: 0.9rem;
+    margin: 0.25rem 0rem;
+  }
+
+  form {
+    margin: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .signup__logo,
+  .signupform__content {
+    padding: 0rem 0.25rem;
+  }
+
+  .floatingInput {
+    font-size: 0.9rem !important;
+  }
+
+  .floatingInput::placeholder {
+    font-size: 0.8rem !important;
+  }
+
+  .gender {
+    display: none;
+  }
+
+  .genderTM {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .tos {
+    color: #777;
+    font-size: 0.7rem;
+  }
+
+  .btn.btn-success {
+    width: 80%;
+  }
+}

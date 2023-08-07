@@ -1,0 +1,79 @@
+#loginPage {
+  margin-top: 8rem !important;
+}
+
+.loginform__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.loginform__content {
+  text-align: center;
+}
+
+.btn.btn-primary {
+  width: 100%;
+}
+
+.btn.btn-success {
+  width: 55%;
+}
+
+.login__logo h1 {
+  color: #0b5bd4;
+  margin: 0.25rem 1rem;
+}
+
+.login__logo h3 {
+  font-weight: 400;
+  margin: 0.25rem 1rem;
+}
+
+.login__logo p {
+  color: #606770;
+  margin: 0.25rem 1rem;
+}
+
+.card.my__card {
+  border-radius: 15px;
+}
+
+/* ---------------------- TABLETS ---------------------- */
+@media screen and (max-width: 991px) {
+  .form__container {
+    width: var(--container-width-md);
+  }
+
+  .btn.btn-success {
+    width: 70%;
+  }
+}
+
+/* ---------------------- MOBILES ---------------------- */
+@media screen and (max-width: 787px) {
+  #loginPage {
+    margin-top: 5rem;
+  }
+
+  .loginform__container {
+    width: var(--container-width-sm);
+    grid-template-columns: none;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  form {
+    margin: 0.75rem !important;
+    padding: 0.75rem !important;
+  }
+
+  .loginLogo span {
+    font-size: 0.8rem;
+    margin: 0rem;
+  }
+
+  .btn.btn-success {
+    width: 65%;
+  }
+}
